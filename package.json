@@ -1,0 +1,33 @@
+{
+  "name": "creat_project_cli",
+  "version": "1.0.0",
+  "description": "creat cli",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cli": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zchfeng/creat_project_cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zchfeng/creat_project_cli/issues"
+  },
+  "homepage": "https://github.com/zchfeng/creat_project_cli#readme",
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "download": "^8.0.0",
+    "fs-extra": "^10.0.0",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.2.0",
+    "log-symbols": "^4.1.0",
+    "ora": "^5.4.1",
+    "update-notifier": "^5.1.0"
+  }
+}
